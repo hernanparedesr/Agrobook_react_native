@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "sdkVersion": "22.0.0",
+  	"name": "Agrobook Tepeyac Pruebas",
+    "slug": "agrobookCooprinsem",
+    "orientation": "portrait",
+    "version": "2.2.2",
+    "icon": "./assets/img/icon.png",
+    "loading": {
+    	"icon": "./assets/img/icon-expo.png",
+    	"backgroundImage": "./assets/img/phone/fondo-expo.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.agrosat.agrobookcooprinsem",
+      "buildNumber": "1",
+      "icon": "./assets/img/iconios.png",
+      "supportsTablet": true,
+      "splash": {
+    	   "image": "./assets/img/phone/fondo-expo.png",
+         "tabletImage": "./assets/img/tablet/fondo-expo.png"
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "Esta aplicación utiliza la cámara para obtener imágenes y anexarlas a la recomendación/supervisión.",
+        "NSLocationWhenInUseUsageDescription": "Esta aplicación utiliza la ubicación para geo-referenciar la recomendación/supervisión."
+      }
+    },
+    "android": {
+      "versionCode": 2,
+      "package": "com.agrosat.agrobookcooprinsem",
+      "icon": "./assets/img/icon512.png",
+      "splash": {
+        "resizeMode": "cover",
+        "ldpi": "./assets/img/phone/fondo-expo.png",
+        "mdpi": "./assets/img/phone/fondo-expo.png",
+        "hdpi": "./assets/img/phone/fondo-expo.png",
+        "xhdpi": "./assets/img/phone/fondo-expo.png",
+        "xxhdpi": "./assets/img/phone/fondo-expo.png",
+        "xxxhdpi": "./assets/img/tablet/fondo-expo.png"
+      }
+    }
+  }
+}
